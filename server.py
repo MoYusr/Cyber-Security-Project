@@ -6,7 +6,7 @@ import time
 class SecureChatServer:
     def __init__(self):
         self.host = '127.0.0.1'
-        self.port = 5555
+        self.port = 55555
         self.server = None
         self.clients = []
         self.nicknames = []
