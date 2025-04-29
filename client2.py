@@ -25,7 +25,7 @@ class SecureChatClient:
         
         self.port_entry = ctk.CTkEntry(self.connection_frame, placeholder_text="Port")
         self.port_entry.pack(pady=5, padx=5, fill="x")
-        self.port_entry.insert(0, "5555")
+        self.port_entry.insert(0, "55555")
         
         self.key_entry = ctk.CTkEntry(self.connection_frame, placeholder_text="Encryption Key")
         self.key_entry.pack(pady=5, padx=5, fill="x")
